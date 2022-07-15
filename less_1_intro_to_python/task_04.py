@@ -10,8 +10,8 @@ max_num = 0
 rem_num = user_num
 this_num = 0
 
-# поиск наибольшего
-while rem_num / 10 > 1:
+# цикл поиска наибольшего числа
+while rem_num - 10 > -10:
     this_num = rem_num % 10
     rem_num //= 10
     if max_num < this_num:
