@@ -25,8 +25,9 @@ else:
     print(f'Фирма "ООО {company}" работает с прибылью, равной {fin_result} у.е.')
     #  Расчёт рентабельности выручки
     profit_cost = proceed / cost
+    print(f'Рентабельность выручки равна {profit_cost:.2f} у.е.')
     headcount = float(input('Для определения прибыли в расчёте на одного сотрудника, '
                       'необходимо ввести численность сотрудников фирмы: '))
     #  Расчёт и вывод прибыли в расчёте на одного сотрудника
     fin_result_per_employee = fin_result / headcount
-    print(f'Прибыль фирмы в расчёте на одного сотрудника равна {fin_result_per_employee} у.е.')
+    print(f'Прибыль фирмы в расчёте на одного сотрудника равна {fin_result_per_employee:.2f} у.е.')
