@@ -34,6 +34,7 @@ else:
     #  Решение через dict
     print('\nРешение через dict')
     #  цикл поиска позиции ключа, в значениях которого есть введённый месяц
+    #  ВНИМАНИЕ: порядок в условии важен, использованы ленивые вычисления
     while n <= len(list(dict_seasons.keys())) and month not in list(dict_seasons.values())[n]:
         n += 1
     print(f'Введённый вами месяц {month}, относится к {list(dict_seasons.keys())[n]}')
