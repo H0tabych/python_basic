@@ -5,7 +5,7 @@
 """
 
 #  Определение списка и его элементов.
-my_list = ['qwerty', 88, -33.3, 3 + 4j, None, True, b'bytes', bytearray(b'text'), ValueError,
+my_list = ['qwerty', 88, -33.3, 3 + 4j, None, True, b'bytes', bytearray(b'text'),
            (9, 1, -5), ['a', 'b', 'c'], {1, 1, 2, 3, 5}, {1: 'q', 6: 'w', 8: 'e'}]
 
 #  Цикл прохода по списку и определения типов его элементов

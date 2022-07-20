@@ -21,6 +21,7 @@ if new_el not in set(my_list):
     my_list.append(new_el) if new_el < max(my_list) else my_list.insert(0, new_el)
 else:
     #  Определение позиции вставки внутри списка и вставка
+    #  Сделано с переворотом списка на случай если данные пойдут не по порядку
     pos = len(my_list) - my_list[::-1].index(new_el)
     my_list.insert(pos, new_el)
 
